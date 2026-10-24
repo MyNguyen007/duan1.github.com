@@ -1,0 +1,114 @@
+body {
+    background-image: url('../images/background3.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+h2 {
+    background-color: #339933;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-indent: 15px;
+    padding: 5px 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 600px;
+}
+
+h3 {
+    background-color: #339933;
+    color: #ffffff;
+    font-size: 1.1em;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+a:link, a:visited {
+    color: #8b3a62;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #339933;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+#links {
+    float: left;
+    width: 160px;
+    background-color: #ffffff;
+
+    border-top: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #777777;
+    border-bottom: 4px solid #777777;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
+    padding: 15px;
+    margin-top: 0; 
+}
+
+#links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#links li {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+#noidung {
+    margin-left: 210px;
+    padding-left: 15px;
+    border-left: 2px solid #339933; 
+}
+
+#noidung img.photo {
+    float: right;
+    width: 210px;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+}
+
+#noidung ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#noidung li {
+    margin-bottom: 5px;
+}
+
+address {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85); 
+    text-align: center;
+    border-top: 2px solid #339933;
+    padding: 8px 0;
+    font-style: normal;
+    font-size: 0.85em;
+    color: #ffffff;
+    z-index: 9999;
+}
